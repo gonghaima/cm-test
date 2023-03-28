@@ -13,6 +13,7 @@ Node version: ```17.3.0^```
 ## Serve
 
 `npm run dev`
+http://localhost:5050/user
 
 ## Test & Coverage
 
@@ -26,11 +27,12 @@ If not, it can be preprossed from client side or express middleware.
 
 ## Request to the server
 
-postman
-
+###postman
 [import this json collection](__tests__/request.postman_collection.json)
 
-Curl request short payload
+###curl
+
+Curl request -  short payload
 
 ```shell
 curl --location --request POST 'http://localhost:5050/user' \
