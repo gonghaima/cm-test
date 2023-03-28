@@ -2,9 +2,9 @@
 
 ## Prepare
 
-Node version: 17.3.0 +
-nvm install 17
-nvm use 17
+Node version: ```17.3.0^```
+```nvm install 17```
+```nvm use 17```
 
 ## Install
 
@@ -20,9 +20,9 @@ nvm use 17
 
 ## Assumptions
 
-The HEART_RATE data has sorted date in an array
+The HEART_RATE data has been sorted in an array
 
-If not, it can be done by sorting from client side or express middleware, in prior to processing.
+If not, it can be preprossed from client side or express middleware.
 
 ## Request to the server
 
